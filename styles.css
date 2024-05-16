@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2e2b2b;
+    margin: 0;
+    padding: 0;
+    color: #e9e7e3;
+   
+}
+
+#app {
+    width: 60%;
+    margin: auto;
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #f3c704;
+     border-radius: 10px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.queries h2 {
+    text-align: center;
+    
+}
+.input-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#question-input {
+    width: 60%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#image-upload {
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.queries {
+    margin-top: 20px;
+    border-left: 450px;
+}
+
+.query {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #8d8787;
+}
+
+.query img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.comment, .reply {
+    margin-left: 20px;
+    margin-top: 10px;
+    padding: 5px;
+    border-top: 1px solid #ddd;
+}
+
+.comment img, .reply img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}

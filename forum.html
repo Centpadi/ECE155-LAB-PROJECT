@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DiscussionHub</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <div class="header">
+            <h1>DiscussionHub</h1>
+        </div>
+        <div class="input-section">
+            <input type="text" id="question-input" placeholder="Write Your Question Here!">
+            <input type="file" id="image-upload" accept="image/*">
+            <button onclick="postQuestion()">Post</button>
+        </div>
+        <div class="queries">
+            <h2>QUERIES</h2>
+            <div id="queries-list"></div>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
